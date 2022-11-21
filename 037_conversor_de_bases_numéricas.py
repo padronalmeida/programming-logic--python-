@@ -7,8 +7,10 @@ Escolha para qual base quer converter o número digitado:
 """))
 
 if escolha == 1:
-    print('O número {} em binário é {}.'.format(escolha, bin(num)))
+    print('O número {} em binário é {}.'.format(num, bin(num)))
 elif escolha == 2:
-    print('O número {} em octal é {}.'.format(escolha, oct(num)))
+    print('O número {} em octal é {}.'.format(num, oct(num)))
 elif escolha == 3:
-    print('O número {} em hexadecimal é {}.'.format(escolha, hex(num)))
+    print('O número {} em hexadecimal é {}.'.format(num, hex(num)))
+else:
+    print('Opção inválida.')
