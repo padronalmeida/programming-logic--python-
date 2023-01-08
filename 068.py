@@ -23,7 +23,7 @@ while True:
 if poi == 1:
     nome_poi = 'ímpar'
 else:
-    poi == 'par'
+    nome_poi = 'par'
 
 print("""Você mostrou {} dedos e o computador mostrou {} dedos.
 Como tinha escolhido {}, você perdeu ! 
